@@ -1,42 +1,41 @@
 /* Created by: Kenneth
-* Created on: April 2024
+* Created on: Sep 2024
 * This file contains the CSS for index.html
 */
 
-body {
-  background-color: rgb(21, 77, 188);
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
 }
 
-.innerbody {
-  background-color: rgb(250 250 250);
-  width: 500px;
-  padding: 10px;
-  border: 5px solid rgb(135, 168, 225);
-  margin: 20px auto;
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
 }
 
-.test {
-  background-color: rgb(173, 32, 32);
-  width: 40px;
+.mdl-textfield__error {
+  color: lightgreen;
 }
 
-.content {
-  padding: 1%;
+.page-content {
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
 }
 
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
+.page-content-answer {
+  color: rgb(0 0 0);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
 }
 
 img {
-  width: 500px;
-  margin-top: 20px;
+  height: auto;
+  width: 250px;
+  float: right;
+}
+
+body {
+  background-color: cornflowerblue;
 }
